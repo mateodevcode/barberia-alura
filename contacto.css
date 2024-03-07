@@ -1,0 +1,105 @@
+
+main {
+    width: 940px;
+    margin: 0 auto;
+}
+
+form {
+    margin: 40px 0;
+}
+
+form label,input,textarea {
+    display: block;
+    font-size: 20px;
+    margin: 0 0 20px;
+    width: 50%;
+}
+
+label {
+    font-weight: bold;
+
+}
+
+input {
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+input:hover {
+    border-color: #000;
+}
+
+textarea {
+    padding: 5px;
+    border: 2px solid #ccc;
+    border-radius: 5px;
+}
+
+
+button {
+    padding: 10px 20px;
+    font-size: 20px;
+    background-color: rgb(87, 87, 255);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-radius: 10px;
+    transition: 2s all;
+}
+
+button:hover {
+    background-color: rgb(87, 87, 255, 0.8);
+    transform: scale(2) rotate(360deg);
+}
+
+.horario {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.titulo-horario {
+    font-size: 30px;
+    padding: 10px 0;
+    font-weight: bold;
+}
+
+table {
+    margin: 40px;
+}
+
+thead {
+    background: #000;
+    color: #fff;
+    font-weight: bold;
+}
+
+td,th {
+    border: 1px solid #000;
+    padding: 2px 5px;
+}
+
+.card-info {
+    text-align: center;
+    background: rgb(87, 87, 255, 0.9);
+    padding: 20px 40px 20px 40px;
+    border-radius: 800px 800px 0 0;
+    color: #fff;
+}
+
+.card-info h2 {
+    font-size: 40px;
+    padding: 20px 0;
+    color: black;
+}
+
+.card-info span {
+    color: black;
+}
+
+.card-info > p {
+    padding: 10px 0;
+    font-weight: 700;
+}

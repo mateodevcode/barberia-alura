@@ -1,0 +1,184 @@
+body {
+    text-align: center;
+    font-family: 'Courier New', Courier, monospace;
+}
+
+header {
+    color: #fff;
+    height: auto;
+    width: auto;
+    position: absolute;
+}
+
+header > div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+    margin-left: 150px;
+    margin-top: 50px;
+}
+
+header > div > img {
+    width: 200px;
+    background: rgba(255, 255, 255, 0.5);
+    border-radius: 40%;
+}
+
+#titulo-principal {
+    text-align: left;
+    font-size: 90px;
+    font-weight: bold;
+    padding: 10px 20px;
+    border-radius: 20px 5px 20px 5px;
+    background: url("/barberia-alura/imagenes/bg.jpg");
+    margin: 0 150px;
+}
+
+
+.navegacion {
+    margin: 20px 0 40px 0;
+    background: #ccc;
+    width: 60%;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul {
+    display: flex;
+    padding: 10px 0;
+}
+
+li {
+    list-style: none;
+    margin: 0 10px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 22px;
+}
+
+nav a:hover {
+    color: rgb(87, 87, 255, 0.8);
+}
+
+
+.principal {
+    padding: 30px;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+}
+
+.principal > h2 {
+    font-size: 40px;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.principal > p {
+    font-size: 20px;
+    max-width: 70%;
+}
+
+.utensilios {
+    width: 300px;
+    border-radius: 40px 5px;
+    margin: 20px 0 40px 0;
+}
+
+em strong {
+    color: #f00;
+}
+
+#mision {
+    font-size: 20px;
+    max-width: 50%;
+    margin: 40px 10px;
+}
+
+#banner {
+    width: 100%;
+}
+
+
+h2 {
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+    margin-bottom: 50px;
+}
+
+ul {
+    display: inline-block;
+    vertical-align: top;
+    width: 30%;
+    margin-right: 15%;
+}
+
+.item {
+    text-align: left;
+    font-style: italic;
+    font-weight: 700;
+    font-size: 25px;
+    margin: 20px 0;
+}
+
+.mapa {
+    background: linear-gradient(#fff, #ccc);
+}
+.mapa > h3 {
+    font-size: 30px;
+    font-weight: bold;
+    margin: 10px 0 20px 0;
+}
+
+.mapa > p {
+    font-size: 20px;
+    margin: 40px 10px;
+}
+
+.maps {
+    margin: 50px 0 0 0;
+
+}
+
+.diferenciales {
+    background: #ccc;
+    padding: 30px;
+}
+
+#img-diferenciales {
+    width: 50%;
+    border: 4px dashed #000;
+}
+
+footer {
+    background: url("/barberia-alura/imagenes/bg.jpg");
+    color: #fff;
+    height: auto;
+    width: 100%;
+}
+
+.footer {
+    text-align: center;
+    padding: 0 60px;
+    padding: 40px;
+}
+
+.footer>p {
+    font-weight: bold;
+}
+
+
+
+/* @media screen and (max-width:480px) {
+    body {
+        background: #f00;
+    }
+} */
